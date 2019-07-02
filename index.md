@@ -1,6 +1,13 @@
 ---
 layout: default
 title: Home
+permalink: /
+
+excerpt: "Jorge Eduardo - Blog (Java, NodeJS,
+Javascript, DevOps, Docker, Kubernetes, Istio, etc)"
+tags: [docker, devops, java, javascript, angular, agile, design patterns,
+architecture, git, github, nodejs, npm, conferences, talks, technologies, node, kubernetes, istio ]
+
 ---
 
 <div class="posts">
