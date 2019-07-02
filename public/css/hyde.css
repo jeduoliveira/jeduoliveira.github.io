@@ -31,7 +31,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-html {
+ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
@@ -79,8 +79,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Pacifico", serif;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */
@@ -97,6 +97,14 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+/* Sidebar Photo */
+.sidebar img.photo {
+  border-radius: 50%;
+  opacity: .7;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /* Sticky sidebar
@@ -128,7 +136,9 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
+    /*
     max-width: 38rem;
+    */
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -247,4 +257,14 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Custom changes for chrisschuld.com */
+
+img.shadow {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+img.screenshot {
+  max-width: 50%;
 }

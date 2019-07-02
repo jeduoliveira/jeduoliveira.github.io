@@ -1,6 +1,14 @@
+
+
 <div class="sidebar">
+  
+
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <div>
+        <img src="https://s.gravatar.com/avatar/3cd3ce6e38b7b58eae6b5df56f313f91?s=238" />
+      </div>
+
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -26,11 +34,12 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <!--a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <span class="sidebar-nav-item">Currently v{{ site.version }}</span-->
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
+
